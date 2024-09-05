@@ -1,4 +1,4 @@
-// select elements
+/* // select elements
 const cityName = document.getElementById("city-name");
 const temperature = document.getElementById("temp");
 const weatherIcon = document.getElementById("weather-icon");
@@ -69,3 +69,8 @@ navigator.geolocation.getCurrentPosition((position) => {
   const { latitude, longitude } = position.coords;
   getWeatherByLocation(latitude, longitude);
 });
+ */
+
+// Selection
+const formData = document.getElementById("form-data");
+console.log(formData)
